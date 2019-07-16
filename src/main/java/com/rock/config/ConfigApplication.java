@@ -5,7 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.config.server.EnableConfigServer;
 
 //启动一个服务注册中心提供给其他应用进行对话
-//@EnableEurekaServer
 @SpringBootApplication(scanBasePackages = {"com.rock.config"})
 @EnableConfigServer
 public class ConfigApplication {
